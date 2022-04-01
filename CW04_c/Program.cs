@@ -50,9 +50,8 @@ namespace CW04c
             Console.WriteLine("Delta: " + delta);
             if (delta > 0)
             {
-                double x1, x2;
-                x1 = (-b - Math.Sqrt(delta)) / 2 * a;
-                x2 = (-b + Math.Sqrt(delta)) / 2 * a;
+                Complex x1 = (-b - Math.Sqrt(delta)) / 2 * a;
+                Complex x2 = (-b + Math.Sqrt(delta)) / 2 * a;
                 Console.WriteLine("Rozwiązania równania kwadratowego to: " + x1 + " oraz " + x2);
             }
             else if (delta < 0)
@@ -61,7 +60,7 @@ namespace CW04c
             }
             else
             {
-                double x = -b / 2 * a;
+                Complex x = -b / 2 * a;
                 Console.WriteLine("Rozwiązanie tego równania to: " + x);
             }
 
