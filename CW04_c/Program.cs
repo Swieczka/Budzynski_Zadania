@@ -8,16 +8,14 @@ namespace CW04c
         {
             if (args.Length > 0 && args.Length <= 3)
             {
-                if (args[0] == "/?")
-                {
-                    Console.WriteLine("Wprowadz trzy kolejne liczby będące współczynnikami równania kwadratowego.");
-                }
-                else
-                {
                     bool isEveryInputDigit = true;
                     for (int i = 0; i < args.Length; i++)
                     {
-                        double.TryParse(args[i], out double j);
+                    if (args[i] == "/?")
+                    {
+                        Console.WriteLine("Wprowadz trzy kolejne liczby będące współczynnikami równania kwadratowego.");
+                    }
+                    double.TryParse(args[i], out double j);
                         if (args[i] != "0" && j == 0)
                         {
                             Console.WriteLine("Argument nr. " + (i + 1) + " nie jest liczbą");
@@ -32,7 +30,6 @@ namespace CW04c
                         Calculate(a, b, c);
                     }
 
-                }
             }
             else if (args.Length < 3)
             {
