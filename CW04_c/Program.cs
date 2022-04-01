@@ -6,7 +6,7 @@ namespace CW04c
     {
         static void Main(string[] args)
         {
-            if (args.Length > 0)
+            if (args.Length > 0 && args.Length <= 3)
             {
                 if (args[0] == "/?")
                 {
