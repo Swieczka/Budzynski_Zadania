@@ -3,17 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cwiczenia", "Cwiczenia.csproj", "{83A8C087-E52C-41E2-80E5-BAF50451376D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CW04_c", "..\CW04_c\CW04_c.csproj", "{9A65C062-A522-4031-897E-1AF1E1013F7C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zadanie01", "..\Zadanie01\Zadanie01.csproj", "{4EA2772A-DC23-41AF-A9FA-F807D2FF43C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zmienne", "..\Zmienne\Zmienne.csproj", "{7DBD5DC7-AF00-4A02-B9E7-93FDF1D36984}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zmienne", "..\Zmienne\Zmienne.csproj", "{7DBD5DC7-AF00-4A02-B9E7-93FDF1D36984}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RównanieKwadratowe", "..\RównanieKwadratowe\RównanieKwadratowe.csproj", "{CE30D851-ECB3-4661-80FB-056A8F3160E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RównanieKwadratowe", "..\RównanieKwadratowe\RównanieKwadratowe.csproj", "{CE30D851-ECB3-4661-80FB-056A8F3160E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorytm_X_wieksze_0", "..\Algorytm_X_wieksze_0\Algorytm_X_wieksze_0.csproj", "{C6D413B4-28E9-4CF1-8254-637944A2DE76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm_X_wieksze_0", "..\Algorytm_X_wieksze_0\Algorytm_X_wieksze_0.csproj", "{C6D413B4-28E9-4CF1-8254-637944A2DE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_1", "..\Loops_1\Loops_1.csproj", "{7F701CBB-7017-4936-B2E9-9A1A803FF077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_2", "..\Loops_2\Loops_2.csproj", "{DFB8A4AC-6D3E-48A7-ADC5-00023C2E7173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_3", "..\Loops_3\Loops_3.csproj", "{55350DCF-56C9-476C-B0C5-98513C2D4846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warunki_1", "..\Warunki_1\Warunki_1.csproj", "{D4985FA1-C92D-4656-B046-7E60D027D48F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warunki_2", "..\Warunki_2\Warunki_2.csproj", "{9A553AB1-0234-47BB-B8C7-477DAE7CAAD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +29,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{83A8C087-E52C-41E2-80E5-BAF50451376D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83A8C087-E52C-41E2-80E5-BAF50451376D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83A8C087-E52C-41E2-80E5-BAF50451376D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{83A8C087-E52C-41E2-80E5-BAF50451376D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A65C062-A522-4031-897E-1AF1E1013F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9A65C062-A522-4031-897E-1AF1E1013F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A65C062-A522-4031-897E-1AF1E1013F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +49,26 @@ Global
 		{C6D413B4-28E9-4CF1-8254-637944A2DE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6D413B4-28E9-4CF1-8254-637944A2DE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6D413B4-28E9-4CF1-8254-637944A2DE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F701CBB-7017-4936-B2E9-9A1A803FF077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F701CBB-7017-4936-B2E9-9A1A803FF077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F701CBB-7017-4936-B2E9-9A1A803FF077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F701CBB-7017-4936-B2E9-9A1A803FF077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB8A4AC-6D3E-48A7-ADC5-00023C2E7173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB8A4AC-6D3E-48A7-ADC5-00023C2E7173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB8A4AC-6D3E-48A7-ADC5-00023C2E7173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB8A4AC-6D3E-48A7-ADC5-00023C2E7173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55350DCF-56C9-476C-B0C5-98513C2D4846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55350DCF-56C9-476C-B0C5-98513C2D4846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55350DCF-56C9-476C-B0C5-98513C2D4846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55350DCF-56C9-476C-B0C5-98513C2D4846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4985FA1-C92D-4656-B046-7E60D027D48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4985FA1-C92D-4656-B046-7E60D027D48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4985FA1-C92D-4656-B046-7E60D027D48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4985FA1-C92D-4656-B046-7E60D027D48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A553AB1-0234-47BB-B8C7-477DAE7CAAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A553AB1-0234-47BB-B8C7-477DAE7CAAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A553AB1-0234-47BB-B8C7-477DAE7CAAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A553AB1-0234-47BB-B8C7-477DAE7CAAD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
