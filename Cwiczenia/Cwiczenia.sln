@@ -13,15 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RównanieKwadratowe", "..\R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm_X_wieksze_0", "..\Algorytm_X_wieksze_0\Algorytm_X_wieksze_0.csproj", "{C6D413B4-28E9-4CF1-8254-637944A2DE76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_1", "..\Loops_1\Loops_1.csproj", "{7F701CBB-7017-4936-B2E9-9A1A803FF077}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_1", "..\Loops_1\Loops_1.csproj", "{7F701CBB-7017-4936-B2E9-9A1A803FF077}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_2", "..\Loops_2\Loops_2.csproj", "{DFB8A4AC-6D3E-48A7-ADC5-00023C2E7173}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_2", "..\Loops_2\Loops_2.csproj", "{DFB8A4AC-6D3E-48A7-ADC5-00023C2E7173}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_3", "..\Loops_3\Loops_3.csproj", "{55350DCF-56C9-476C-B0C5-98513C2D4846}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_3", "..\Loops_3\Loops_3.csproj", "{55350DCF-56C9-476C-B0C5-98513C2D4846}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warunki_1", "..\Warunki_1\Warunki_1.csproj", "{D4985FA1-C92D-4656-B046-7E60D027D48F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warunki_1", "..\Warunki_1\Warunki_1.csproj", "{D4985FA1-C92D-4656-B046-7E60D027D48F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warunki_2", "..\Warunki_2\Warunki_2.csproj", "{9A553AB1-0234-47BB-B8C7-477DAE7CAAD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warunki_2", "..\Warunki_2\Warunki_2.csproj", "{9A553AB1-0234-47BB-B8C7-477DAE7CAAD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypyWartiRef", "TypyWartiRef\TypyWartiRef.csproj", "{975EA1C8-405E-441C-B063-95E8570E5C57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RzutyDwomaKostkami", "RzutyDwomaKostkami\RzutyDwomaKostkami.csproj", "{64D5FC84-7D96-40ED-8C18-281A0DB8B75B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{9A553AB1-0234-47BB-B8C7-477DAE7CAAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A553AB1-0234-47BB-B8C7-477DAE7CAAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A553AB1-0234-47BB-B8C7-477DAE7CAAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{975EA1C8-405E-441C-B063-95E8570E5C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975EA1C8-405E-441C-B063-95E8570E5C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975EA1C8-405E-441C-B063-95E8570E5C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975EA1C8-405E-441C-B063-95E8570E5C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D5FC84-7D96-40ED-8C18-281A0DB8B75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D5FC84-7D96-40ED-8C18-281A0DB8B75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D5FC84-7D96-40ED-8C18-281A0DB8B75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D5FC84-7D96-40ED-8C18-281A0DB8B75B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
